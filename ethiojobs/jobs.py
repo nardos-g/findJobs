@@ -30,6 +30,6 @@ class myScrapy(scrapy.Spider):
                 yield response.follow(next, self.parse)
             
         
-
+print("Nardos is not getting luck in this stages")
 
                 
